@@ -8,8 +8,6 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1.2'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.13'
 # Use Puma as the app server
 gem 'puma', '3.9.1'
 # Use SCSS for stylesheets
@@ -46,6 +44,7 @@ group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '3.5.1'
   gem 'listen', '3.0.8'
+  # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '2.0.2'
